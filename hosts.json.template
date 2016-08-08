@@ -1,0 +1,5 @@
+[
+	{"address": "aeiou.pt","timeout" : 5000, "attempts" : 3},
+	{"address": "segilac.pt","timeout" : 5000, "attempts": 3},
+	{"address": "qualquercoisa.pt","timeout" : 5000, "attempts": 3}
+]

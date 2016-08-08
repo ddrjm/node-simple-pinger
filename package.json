@@ -1,0 +1,14 @@
+{
+  "name": "simple-pinger",
+  "version": "0.0.1",
+  "description": "A simple HTTP check tool",
+  "main": "index.js",
+
+  "author": "Ricky Marquez & Ricky Mendez",
+  "license": "Pay to use bitch",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "nodemailer": "^2.5.0",
+    "tcp-ping": "^0.1.1"
+  }
+}
