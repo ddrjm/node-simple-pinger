@@ -1,0 +1,16 @@
+var config = {};
+config.smtp  = {}
+
+//Default app config
+config.checkTimeout = 60000; // Default 1 min
+
+//SMTP Configs, see: https://www.npmjs.com/package/nodemailer for details
+config.smtp.user = 'username';
+config.smtp.password = "password"; 
+
+config.smtp.from = '"🔥 Fire Department 🔥" <ricky.firedepartment@gmail.com>';
+config.smtp.transportString = 'smtps://username%40gmail.com:password@smtp.gmail.com';
+config.smtp.to = "someEmail@gmail.com, anotherEmail@example.com";
+
+
+module.exports = config;
